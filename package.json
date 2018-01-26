@@ -1,0 +1,36 @@
+{
+  "name": "tag-you-are",
+  "version": "1.0.0",
+  "description": "Simple helper library for dealing with document tags/categories",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -w && ava -v --watch",
+    "test": "tsc && ava"
+  },
+  "typings": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bytesnz/tag-you-are.git"
+  },
+  "keywords": [
+    "tags",
+    "categories",
+    "management",
+    "helper"
+  ],
+  "author": "Jack Farley <@bytesnz>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/bytesnz/tag-you-are/issues"
+  },
+  "homepage": "https://github.com/bytesnz/tag-you-are#readme",
+  "ava": {
+    "files": [
+      "**/*.tests.js"
+    ]
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "typescript": "^2.6.2"
+  }
+}
